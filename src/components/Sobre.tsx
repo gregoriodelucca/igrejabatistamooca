@@ -7,9 +7,9 @@ const Sobre: React.FC = () => {
       <div className="md:w-1/2">
         <h2 className="text-3xl font-semibold mb-4">Sobre nós</h2>
         <p className="text-lg text-gray-700">
-          Somos uma igreja dedicada à fé, união e inovação. Trabalhamos com as
-          melhores soluções para o crescimento espiritual e social de nossa
-          comunidade.
+        Bem-vindo à Igreja Batista da Mooca! Estamos aqui para ajudar as pessoas a descobrir como servir a Deus e seguir os seus caminhos.
+
+
         </p>
       </div>
 
