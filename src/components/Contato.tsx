@@ -43,13 +43,13 @@ const Contato: React.FC = () => {
           {/* Informações de Contato */}
           <div className="md:w-1/2 space-y-4">
             <p className="text-gray-700">
-              <strong>Endereço:</strong> Rua Exemplo, 123, Centro, Cidade - UF
+              <strong>Endereço:</strong> Rua Javari, n 79 - Mooca, São Paulo - SP
             </p>
             <p className="text-gray-700">
               <strong>Telefone:</strong> (11) 1234-5678
             </p>
             <p className="text-gray-700">
-              <strong>Email:</strong> contato@igreja.com
+              <strong>Email:</strong> igrejabatistamooca@gmail.com
             </p>
           </div>
         </div>

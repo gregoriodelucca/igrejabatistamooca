@@ -1,35 +1,47 @@
-import React from "react";
-
-const Header: React.FC = () => {
-  return (
-    <header className="bg-blue-200 text-black shadow-md py-4">
-      <div className="container mx-auto flex justify-between items-center px-4">
-        {/* Nome da Igreja ou Logotipo */}
-        <h1 className="text-2xl font-bold">Igreja XYZ</h1>
-
-        {/* Navegação */}
+// Exemplo de Header com Navbar à direita
+const Header = () => {
+    return (
+      <header
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between', // Alinha logo à esquerda e navbar à direita
+          alignItems: 'center',
+          backgroundColor: 'black',  // Fundo preto
+          color: 'white',            // Texto branco
+          padding: '10px 20px',      // Espaçamento
+        }}
+      >
+        {/* Logo da Igreja */}
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <img 
+            src="https://ugc.production.linktr.ee/Mb7mrVZRIaQWfSPz8jEn_hu34oaud2K6K9TdH?io=true&size=avatar-v3_0" 
+            alt="Logo da Igreja" 
+            style={{ width: '100px', height: 'auto' }} 
+          />
+        </div>
+  
+        {/* Barra de Navegação à direita */}
         <nav>
-          <ul className="flex space-x-6">
-            <li>
-              <a href="#sobre" className="hover:text-blue-500">
-                Sobre
-              </a>
+          <ul style={{
+            display: 'flex',
+            listStyle: 'none',
+            padding: '0',
+            margin: '0',
+          }}>
+            <li style={{ margin: '0 15px' }}>
+              <a href="#sobre" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Sobre</a>
             </li>
-            <li>
-              <a href="#social" className="hover:text-blue-500">
-                Social
-              </a>
+            <li style={{ margin: '0 15px' }}>
+              <a href="#contato" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Contato</a>
             </li>
-            <li>
-              <a href="#contato" className="hover:text-blue-500">
-                Contato
-              </a>
+            <li style={{ margin: '0 15px' }}>
+              <a href="#social" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Social</a>
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
-  );
-};
-
-export default Header;
+      </header>
+    );
+  };
+  
+  export default Header;
+  
