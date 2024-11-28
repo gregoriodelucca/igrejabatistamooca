@@ -1,9 +1,11 @@
-import React from "react";
+// src/App.tsx
+import React from 'react';
 import Header from "./components/Header";
 import Sobre from "./components/Sobre";
 import Social from "./components/Social";
 import Contato from "./components/Contato";
 import Footer from "./components/Footer";
+import Mapa from "./components/Mapa"; // Importando o componente Mapa
 
 const App: React.FC = () => {
   return (
@@ -21,6 +23,9 @@ const App: React.FC = () => {
         {/* Seção de Contato */}
         <Contato />
       </main>
+
+      {/* Seção de Mapa */}
+      <Mapa /> {/* Adicionando a seção de mapa aqui */}
 
       {/* Rodapé */}
       <Footer />

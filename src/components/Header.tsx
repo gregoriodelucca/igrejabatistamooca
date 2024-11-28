@@ -1,4 +1,4 @@
-// Exemplo de Header com Navbar à direita
+// Exemplo de Header com Navbar à direita e logo menor
 const Header = () => {
     return (
       <header
@@ -16,7 +16,7 @@ const Header = () => {
           <img 
             src="https://ugc.production.linktr.ee/Mb7mrVZRIaQWfSPz8jEn_hu34oaud2K6K9TdH?io=true&size=avatar-v3_0" 
             alt="Logo da Igreja" 
-            style={{ width: '100px', height: 'auto' }} 
+            style={{ width: '50px', height: 'auto' }}  // Tamanho da logo ajustado para 50px de largura
           />
         </div>
   
@@ -30,12 +30,12 @@ const Header = () => {
           }}>
             <li style={{ margin: '0 15px' }}>
               <a href="#sobre" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Sobre</a>
+            </li>            
+            <li style={{ margin: '0 15px' }}>
+              <a href="#social" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Social</a>
             </li>
             <li style={{ margin: '0 15px' }}>
               <a href="#contato" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Contato</a>
-            </li>
-            <li style={{ margin: '0 15px' }}>
-              <a href="#social" style={{ color: 'white', textDecoration: 'none', fontSize: '18px' }}>Social</a>
             </li>
           </ul>
         </nav>
