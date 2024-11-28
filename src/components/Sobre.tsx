@@ -8,7 +8,7 @@ const Sobre: React.FC = () => {
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4">Sobre Nós</h2>
           <p className="text-gray-700 leading-relaxed">
-            Bem-vindo à Igreja XYZ! Nossa missão é promover a fé, o amor ao
+            Bem-vindo à Igreja Batista mooca! Nossa missão é promover a fé, o amor ao
             próximo e a união da comunidade. Estamos aqui para inspirar e
             transformar vidas por meio da palavra de Deus e ações solidárias.
           </p>
